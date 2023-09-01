@@ -1,0 +1,143 @@
+[
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "sqlite3",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlite3",
+        "description": "sqlite3",
+        "detail": "sqlite3",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_FormsTable",
+        "kind": 6,
+        "importPath": "forms_table",
+        "description": "forms_table",
+        "peekOfCode": "class Ui_FormsTable(object):\n    def DeleteAllWarn(self):\n        from PyQt6.QtWidgets import QMessageBox\n        self.deleteall = QMessageBox()\n        self.deleteall.setWindowTitle('JM Healthcare')\n        self.deleteall.setWindowIcon(QtGui.QIcon('images/logo2.png'))\n        self.deleteall.setIcon(QMessageBox.Icon.Critical)\n        self.deleteall.setText('This action cannot be undone                                   ')\n        self.deleteall.setInformativeText('Are you sure you want to delete all the forms?')\n        self.deleteall.setStandardButtons(QMessageBox.StandardButton.Yes | QMessageBox.StandardButton.Cancel)",
+        "detail": "forms_table",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_MenuWindow",
+        "kind": 6,
+        "importPath": "menu_page",
+        "description": "menu_page",
+        "peekOfCode": "class Ui_MenuWindow(object):\n    def GoSubmittedForms(self):\n        from forms_table import Ui_FormsTable\n        self.forms = QtWidgets.QMainWindow()\n        self.ui = Ui_FormsTable()\n        self.ui.setupUi(self.forms)\n        self.ui.DeleteAllButton.clicked.connect(lambda: self.ui.listWidget.clear())\n        self.ui.DeleteAllButton.clicked.connect(lambda: self.ui.diagnosed_count.setText('Yes: 0     |     No: 0'))\n        self.forms.show()\n    def GoRegistrationForm(self):",
+        "detail": "menu_page",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_RegistrationForm",
+        "kind": 6,
+        "importPath": "registration_form",
+        "description": "registration_form",
+        "peekOfCode": "class Ui_RegistrationForm(object):\n    def SubmitForm(self):\n        self.symptoms_list = []\n        # Diagnosed\n        if self.radio_no.isChecked():\n          self.diagnosed = self.radio_no.text()\n        if self.radio_yes.isChecked():\n          self.diagnosed = self.radio_yes.text()\n        # Symptoms\n        if self.symptoms_tastesmell.isChecked():",
+        "detail": "registration_form",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_ViewForm",
+        "kind": 6,
+        "importPath": "view_form",
+        "description": "view_form",
+        "peekOfCode": "class Ui_ViewForm(object):\n    def ReOpenFormsTable(self):\n        from forms_table import Ui_FormsTable\n        self.forms = QtWidgets.QMainWindow()\n        self.ui = Ui_FormsTable()\n        self.ui.setupUi(self.forms)\n        self.forms.show()\n    def DeleteForm(self):\n        # ==================================================== SQLITE3 ====================================================\n        mydb = sqlite3.connect('jm_health_care.db')",
+        "detail": "view_form",
+        "documentation": {}
+    }
+]

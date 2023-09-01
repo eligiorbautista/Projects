@@ -1,0 +1,134 @@
+[
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Admin_Login",
+        "kind": 6,
+        "importPath": "admin_loginpage",
+        "description": "admin_loginpage",
+        "peekOfCode": "class Ui_Admin_Login(object):\n    def setupUi(self, Admin_Login):\n        Admin_Login.setObjectName(\"Admin_Login\")\n        Admin_Login.resize(404, 204)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/profile.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Admin_Login.setWindowIcon(icon)\n        self.frame = QtWidgets.QFrame(Admin_Login)\n        self.frame.setGeometry(QtCore.QRect(0, 0, 401, 201))\n        self.frame.setStyleSheet(\"QFrame{border-radius:23px;background-color:rgb(30, 30, 30)}\")",
+        "detail": "admin_loginpage",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Employee_Login",
+        "kind": 6,
+        "importPath": "employee_loginpage",
+        "description": "employee_loginpage",
+        "peekOfCode": "class Ui_Employee_Login(object):\n    def setupUi(self, Employee_Login):\n        Employee_Login.setObjectName(\"Employee_Login\")\n        Employee_Login.resize(404, 204)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/profile.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Employee_Login.setWindowIcon(icon)\n        self.frame = QtWidgets.QFrame(Employee_Login)\n        self.frame.setGeometry(QtCore.QRect(0, 0, 401, 201))\n        self.frame.setStyleSheet(\"QFrame{border-radius:23px;background-color:rgb(30, 30, 30)}\")",
+        "detail": "employee_loginpage",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_MainWindow",
+        "kind": 6,
+        "importPath": "Homepage",
+        "description": "Homepage",
+        "peekOfCode": "class Ui_MainWindow(object):\n    def setupUi(self, MainWindow):\n        MainWindow.setObjectName(\"MainWindow\")\n        MainWindow.resize(792, 471)\n        MainWindow.setMinimumSize(QtCore.QSize(0, 0))\n        MainWindow.setMaximumSize(QtCore.QSize(833, 520))\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/profile.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        MainWindow.setWindowIcon(icon)\n        MainWindow.setStyleSheet(\"background-color:white\\n\"",
+        "detail": "Homepage",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_FirstWindow",
+        "kind": 6,
+        "importPath": "main",
+        "description": "main",
+        "peekOfCode": "class Ui_FirstWindow(object):\n    def setupUi(self, FirstWindow):\n        FirstWindow.setObjectName(\"FirstWindow\")\n        FirstWindow.resize(420, 219)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/profile.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        FirstWindow.setWindowIcon(icon)\n        FirstWindow.setStyleSheet(\"background-color:rgb(30, 30, 30)\")\n        self.frame = QtWidgets.QFrame(FirstWindow)\n        self.frame.setGeometry(QtCore.QRect(10, 10, 401, 201))",
+        "detail": "main",
+        "documentation": {}
+    }
+]

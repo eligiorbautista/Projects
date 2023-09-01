@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Admin_Login</class>
+ <widget class="QWidget" name="Admin_Login">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>404</width>
+    <height>204</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Employee Management System - Admin Login</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>profile.png</normaloff>profile.png</iconset>
+  </property>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>401</width>
+     <height>201</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame{border-radius:23px;background-color:rgb(30, 30, 30)}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>10</y>
+      <width>60</width>
+      <height>60</height>
+     </rect>
+    </property>
+    <property name="minimumSize">
+     <size>
+      <width>0</width>
+      <height>0</height>
+     </size>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>profile.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>401</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="cursor">
+     <cursorShape>ArrowCursor</cursorShape>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white
+</string>
+    </property>
+    <property name="text">
+     <string>Employee Management System</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnexit">
+    <property name="geometry">
+     <rect>
+      <x>380</x>
+      <y>-1</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee</family>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgbrgb(218, 218, 218);color:black</string>
+    </property>
+    <property name="text">
+     <string>x</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btnminimize">
+    <property name="geometry">
+     <rect>
+      <x>362</x>
+      <y>-1</y>
+      <width>21</width>
+      <height>17</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Leelawadee</family>
+      <pointsize>13</pointsize>
+      <weight>75</weight>
+      <bold>true</bold>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">background-color:rgbrgb(218, 218, 218);color:black</string>
+    </property>
+    <property name="text">
+     <string>-</string>
+    </property>
+   </widget>
+   <widget class="QGroupBox" name="groupBox">
+    <property name="geometry">
+     <rect>
+      <x>30</x>
+      <y>100</y>
+      <width>341</width>
+      <height>80</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Impact</family>
+      <pointsize>8</pointsize>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">color:white
+</string>
+    </property>
+    <property name="title">
+     <string>Admin Login</string>
+    </property>
+    <widget class="QLineEdit" name="usernameinput">
+     <property name="geometry">
+      <rect>
+       <x>65</x>
+       <y>20</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;color:black</string>
+     </property>
+     <property name="placeholderText">
+      <string> Username</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="passwordinput">
+     <property name="geometry">
+      <rect>
+       <x>65</x>
+       <y>48</y>
+       <width>211</width>
+       <height>22</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:white;color:black</string>
+     </property>
+     <property name="placeholderText">
+      <string> Password</string>
+     </property>
+    </widget>
+    <widget class="QPushButton" name="btnlogin">
+     <property name="geometry">
+      <rect>
+       <x>280</x>
+       <y>49</y>
+       <width>51</width>
+       <height>21</height>
+      </rect>
+     </property>
+     <property name="font">
+      <font>
+       <family>Impact</family>
+      </font>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">background-color:rgb(255, 0, 0)</string>
+     </property>
+     <property name="text">
+      <string>Login</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

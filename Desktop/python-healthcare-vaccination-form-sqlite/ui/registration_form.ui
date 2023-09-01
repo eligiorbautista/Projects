@@ -1,0 +1,658 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Dialog</class>
+ <widget class="QDialog" name="Dialog">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>736</width>
+    <height>762</height>
+   </rect>
+  </property>
+  <property name="font">
+   <font>
+    <pointsize>5</pointsize>
+   </font>
+  </property>
+  <property name="windowTitle">
+   <string>Covid-19 Vaccine Registration Form</string>
+  </property>
+  <property name="windowIcon">
+   <iconset>
+    <normaloff>logo2.png</normaloff>logo2.png</iconset>
+  </property>
+  <widget class="QFrame" name="frame_2">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>117</y>
+     <width>691</width>
+     <height>621</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QFrame {
+background-color:rgba(68, 135, 193,230.0)
+}</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="font">
+       <font>
+        <family>Arial Rounded MT Bold</family>
+        <pointsize>13</pointsize>
+       </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QGroupBox {
+	color:rgb(126, 126, 126);
+	background-color:white;
+}</string>
+      </property>
+      <property name="title">
+       <string>Registration Form</string>
+      </property>
+      <widget class="QLabel" name="label_6">
+       <property name="geometry">
+        <rect>
+         <x>43</x>
+         <y>37</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Rounded MT Bold</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(126, 126, 126);
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>Name</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_7">
+       <property name="geometry">
+        <rect>
+         <x>43</x>
+         <y>110</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Rounded MT Bold</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(126, 126, 126);
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>Date of Birth</string>
+       </property>
+      </widget>
+      <widget class="QDateEdit" name="datebirth">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>133</y>
+         <width>291</width>
+         <height>41</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">border: 1px solid rgb(122, 122, 122);
+color:rgb(122, 122, 122);
+padding-left:5px;
+background-color:white;
+</string>
+       </property>
+       <property name="calendarPopup">
+        <bool>true</bool>
+       </property>
+       <property name="date">
+        <date>
+         <year>2000</year>
+         <month>1</month>
+         <day>1</day>
+        </date>
+       </property>
+      </widget>
+      <widget class="QWidget" name="layoutWidget">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>60</y>
+         <width>591</width>
+         <height>42</height>
+        </rect>
+       </property>
+       <layout class="QHBoxLayout" name="horizontalLayout">
+        <item>
+         <widget class="QLineEdit" name="first_name">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+	border: 1px solid rgb(122, 122, 122);
+	color:rgb(122, 122, 122);
+	border-radius:8px;
+	padding: 5px;
+}</string>
+          </property>
+          <property name="placeholderText">
+           <string>First Name</string>
+          </property>
+         </widget>
+        </item>
+        <item>
+         <widget class="QLineEdit" name="last_name">
+          <property name="minimumSize">
+           <size>
+            <width>0</width>
+            <height>40</height>
+           </size>
+          </property>
+          <property name="font">
+           <font>
+            <family>Arial</family>
+            <pointsize>12</pointsize>
+           </font>
+          </property>
+          <property name="styleSheet">
+           <string notr="true">QLineEdit {
+	border: 1px solid rgb(122, 122, 122);
+	color:rgb(122, 122, 122);
+	border-radius:8px;
+	padding: 5px;
+}</string>
+          </property>
+          <property name="placeholderText">
+           <string>Last Name</string>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </widget>
+      <widget class="QLineEdit" name="contact_number">
+       <property name="geometry">
+        <rect>
+         <x>340</x>
+         <y>133</y>
+         <width>291</width>
+         <height>40</height>
+        </rect>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>0</width>
+         <height>40</height>
+        </size>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QLineEdit {
+	border: 1px solid rgb(122, 122, 122);
+	color:rgb(122, 122, 122);
+	border-radius:8px;
+	padding: 5px;
+}</string>
+       </property>
+       <property name="placeholderText">
+        <string>Contact No.</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_8">
+       <property name="geometry">
+        <rect>
+         <x>43</x>
+         <y>182</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Rounded MT Bold</family>
+         <pointsize>11</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">color:rgb(126, 126, 126);
+background-color:white;</string>
+       </property>
+       <property name="text">
+        <string>Address</string>
+       </property>
+      </widget>
+      <widget class="QPlainTextEdit" name="address">
+       <property name="geometry">
+        <rect>
+         <x>40</x>
+         <y>206</y>
+         <width>591</width>
+         <height>87</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPlainTextEdit
+ {
+	border: 1px solid rgb(122, 122, 122);
+	color:rgb(122, 122, 122);
+	border-radius:8px;
+	padding: 5px;
+	background-color:white;
+}</string>
+       </property>
+      </widget>
+      <widget class="QGroupBox" name="groupBox_2">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>310</y>
+         <width>641</width>
+         <height>231</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Rounded MT Bold</family>
+         <pointsize>12</pointsize>
+        </font>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QGroupBox {
+	color:rgb(126, 126, 126);
+	background-color:white;
+}</string>
+       </property>
+       <property name="title">
+        <string>Medical History</string>
+       </property>
+       <widget class="QLabel" name="label_9">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>40</y>
+          <width>621</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Rounded MT Bold</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(126, 126, 126);
+background-color:white;</string>
+        </property>
+        <property name="text">
+         <string>Have you been diagnosed with Covid-19?</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QLabel" name="label_10">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>110</y>
+          <width>621</width>
+          <height>20</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial Rounded MT Bold</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="styleSheet">
+         <string notr="true">color:rgb(126, 126, 126);
+background-color:white;</string>
+        </property>
+        <property name="text">
+         <string>Please check all sysmptoms that apply.</string>
+        </property>
+        <property name="alignment">
+         <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignVCenter</set>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="symptoms_tastesmell">
+        <property name="geometry">
+         <rect>
+          <x>21</x>
+          <y>141</y>
+          <width>160</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Loss of taste/smell</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="symptoms_breathing">
+        <property name="geometry">
+         <rect>
+          <x>188</x>
+          <y>141</y>
+          <width>164</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Difficulty breathing</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="symptoms_cough">
+        <property name="geometry">
+         <rect>
+          <x>359</x>
+          <y>141</y>
+          <width>75</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Cough</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="symptoms_nose">
+        <property name="geometry">
+         <rect>
+          <x>441</x>
+          <y>141</y>
+          <width>114</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Runny nose</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="symptoms_body">
+        <property name="geometry">
+         <rect>
+          <x>21</x>
+          <y>181</y>
+          <width>114</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Body aches</string>
+        </property>
+       </widget>
+       <widget class="QCheckBox" name="symptoms_throat">
+        <property name="geometry">
+         <rect>
+          <x>142</x>
+          <y>181</y>
+          <width>108</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Sore throat</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radio_yes">
+        <property name="geometry">
+         <rect>
+          <x>14</x>
+          <y>74</y>
+          <width>53</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>Yes</string>
+        </property>
+       </widget>
+       <widget class="QRadioButton" name="radio_no">
+        <property name="geometry">
+         <rect>
+          <x>77</x>
+          <y>74</y>
+          <width>47</width>
+          <height>23</height>
+         </rect>
+        </property>
+        <property name="font">
+         <font>
+          <family>Arial</family>
+          <pointsize>10</pointsize>
+         </font>
+        </property>
+        <property name="text">
+         <string>No</string>
+        </property>
+       </widget>
+      </widget>
+      <widget class="QPushButton" name="SubmitButton">
+       <property name="geometry">
+        <rect>
+         <x>536</x>
+         <y>553</y>
+         <width>111</width>
+         <height>31</height>
+        </rect>
+       </property>
+       <property name="font">
+        <font>
+         <family>Arial Rounded MT Bold</family>
+         <pointsize>12</pointsize>
+         <weight>75</weight>
+         <bold>true</bold>
+        </font>
+       </property>
+       <property name="cursor">
+        <cursorShape>PointingHandCursor</cursorShape>
+       </property>
+       <property name="styleSheet">
+        <string notr="true">QPushButton {
+	background-color:rgb(76, 150, 215);
+	color:#fff;
+	border-radius:2px;
+	padding-top:5px;
+	padding-bottom:5px;
+}
+
+QPushButton::hover {
+	background-color:rgb(38, 76, 109);
+}</string>
+       </property>
+       <property name="text">
+        <string>Submit</string>
+       </property>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>741</width>
+     <height>95</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">background-color:white;
+border: solid rgb(83, 67, 52);
+border-width: 2px 0px 0px 0px;</string>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>0</y>
+      <width>211</width>
+      <height>81</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap>logo1.png</pixmap>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_5">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>70</y>
+      <width>741</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Arial Narrow</family>
+      <pointsize>9</pointsize>
+      <italic>true</italic>
+     </font>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">border:none;color:rgb(126, 126, 126)</string>
+    </property>
+    <property name="text">
+     <string>Known for our expertise. Chosen for our care.</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignCenter</set>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>741</width>
+     <height>761</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+   <property name="pixmap">
+    <pixmap>bg.jpg</pixmap>
+   </property>
+   <property name="scaledContents">
+    <bool>true</bool>
+   </property>
+  </widget>
+  <zorder>label</zorder>
+  <zorder>frame</zorder>
+  <zorder>frame_2</zorder>
+ </widget>
+ <tabstops>
+  <tabstop>first_name</tabstop>
+  <tabstop>last_name</tabstop>
+  <tabstop>datebirth</tabstop>
+  <tabstop>contact_number</tabstop>
+  <tabstop>address</tabstop>
+  <tabstop>SubmitButton</tabstop>
+  <tabstop>radio_yes</tabstop>
+  <tabstop>radio_no</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,251 @@
+[
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtCore",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtGui",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "QtWidgets",
+        "importPath": "PyQt6",
+        "description": "PyQt6",
+        "isExtraImport": true,
+        "detail": "PyQt6",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "datetime,",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime.",
+        "description": "datetime.",
+        "detail": "datetime.",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_AccountSettings",
+        "kind": 6,
+        "importPath": "ATM_AccountSettingsWindow",
+        "description": "ATM_AccountSettingsWindow",
+        "peekOfCode": "class Ui_AccountSettings(object):\n    def setupUi(self, AccountSettings):\n        AccountSettings.setObjectName(\"AccountSettings\")\n        AccountSettings.resize(742, 512)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/credit-card.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        AccountSettings.setWindowIcon(icon)\n        self.centralwidget = QtWidgets.QWidget(AccountSettings)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.frame_2 = QtWidgets.QFrame(self.centralwidget)",
+        "detail": "ATM_AccountSettingsWindow",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Dashboard",
+        "kind": 6,
+        "importPath": "ATM_DashboardWindow",
+        "description": "ATM_DashboardWindow",
+        "peekOfCode": "class Ui_Dashboard(object):\n    def setupUi(self, Dashboard):\n        Dashboard.setObjectName(\"Dashboard\")\n        Dashboard.resize(738, 513)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/credit-card.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Dashboard.setWindowIcon(icon)\n        self.centralwidget = QtWidgets.QWidget(Dashboard)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.frame_2 = QtWidgets.QFrame(self.centralwidget)",
+        "detail": "ATM_DashboardWindow",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Deposit",
+        "kind": 6,
+        "importPath": "ATM_DepositWindow",
+        "description": "ATM_DepositWindow",
+        "peekOfCode": "class Ui_Deposit(object):\n    def setupUi(self, Deposit):\n        Deposit.setObjectName(\"Deposit\")\n        Deposit.resize(742, 512)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/credit-card.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Deposit.setWindowIcon(icon)\n        self.centralwidget = QtWidgets.QWidget(Deposit)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.frame_2 = QtWidgets.QFrame(self.centralwidget)",
+        "detail": "ATM_DepositWindow",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Login",
+        "kind": 6,
+        "importPath": "ATM_LoginWindow",
+        "description": "ATM_LoginWindow",
+        "peekOfCode": "class Ui_Login(object):\n    def setupUi(self, Login):\n        Login.setObjectName(\"Login\")\n        Login.resize(742, 512)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/credit-card.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Login.setWindowIcon(icon)\n        self.centralwidget = QtWidgets.QWidget(Login)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.frame_2 = QtWidgets.QFrame(self.centralwidget)",
+        "detail": "ATM_LoginWindow",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Registration",
+        "kind": 6,
+        "importPath": "ATM_RegistrationWindow",
+        "description": "ATM_RegistrationWindow",
+        "peekOfCode": "class Ui_Registration(object):\n    def setupUi(self, Registration):\n        Registration.setObjectName(\"Registration\")\n        Registration.resize(742, 512)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/credit-card.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Registration.setWindowIcon(icon)\n        self.centralwidget = QtWidgets.QWidget(Registration)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.frame_2 = QtWidgets.QFrame(self.centralwidget)",
+        "detail": "ATM_RegistrationWindow",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Transactions",
+        "kind": 6,
+        "importPath": "ATM_TransactionHistoryWindow",
+        "description": "ATM_TransactionHistoryWindow",
+        "peekOfCode": "class Ui_Transactions(object):\n    def setupUi(self, Transactions):\n        Transactions.setObjectName(\"Transactions\")\n        Transactions.resize(738, 513)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/credit-card.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Transactions.setWindowIcon(icon)\n        self.centralwidget = QtWidgets.QWidget(Transactions)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.frame_2 = QtWidgets.QFrame(self.centralwidget)",
+        "detail": "ATM_TransactionHistoryWindow",
+        "documentation": {}
+    },
+    {
+        "label": "Ui_Withdraw",
+        "kind": 6,
+        "importPath": "ATM_WithdrawWindow",
+        "description": "ATM_WithdrawWindow",
+        "peekOfCode": "class Ui_Withdraw(object):\n    def setupUi(self, Withdraw):\n        Withdraw.setObjectName(\"Withdraw\")\n        Withdraw.resize(742, 512)\n        icon = QtGui.QIcon()\n        icon.addPixmap(QtGui.QPixmap(\"images/credit-card.png\"), QtGui.QIcon.Mode.Normal, QtGui.QIcon.State.Off)\n        Withdraw.setWindowIcon(icon)\n        self.centralwidget = QtWidgets.QWidget(Withdraw)\n        self.centralwidget.setObjectName(\"centralwidget\")\n        self.frame_2 = QtWidgets.QFrame(self.centralwidget)",
+        "detail": "ATM_WithdrawWindow",
+        "documentation": {}
+    }
+]
